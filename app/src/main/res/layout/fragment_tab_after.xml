@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+
+
+        android:id="@+id/imageView"
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/bike" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+
+
+
+
+
+
+
+
+
+    <Button
+
+        android:id="@+id/safe_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="안전수칙"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+
+        android:id="@+id/equipment_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="안전장비"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+
+
+        android:id="@+id/puncture_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="펑크수리"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

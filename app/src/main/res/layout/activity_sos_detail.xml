@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bullswiz.parent.login.ActivityRegister">
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/activity_sos_detail_title_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_sos_title"
+                android:maxLines="1"
+                android:text="바퀴가 펑크 났어요 도와주세요."
+                android:textStyle="bold"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/activity_sos_detail_body_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_sos_body"
+                android:inputType="textMultiLine"
+                android:text="지금 바퀴가 펑크가 났는데 끌고 가고 있습니다 위치는 안양천에서 한강 방향으로 가고 있습니다. 도와 주시면 사례 하겠습니다 옷의 색은 빨강 레깅스를 입고 있습니다 "
+                android:maxLines="5"
+                />
+
+            <TextView
+                android:id="@+id/activity_sos_detail_status_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_sos_body"
+                android:inputType="textMultiLine"
+                android:text="지금 바퀴가 펑크가 났는데 끌고 가고 있습니다 위치는 안양천에서 한강 방향으로 가고 있습니다. 도와 주시면 사례 하겠습니다 옷의 색은 빨강 레깅스를 입고 있습니다 "
+                android:maxLines="5"
+                />
+
+            <Button
+                android:id="@+id/activity_sos_detail_call_bt"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="전화"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/activity_sos_detail_cancel_bt"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/action_cancel"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

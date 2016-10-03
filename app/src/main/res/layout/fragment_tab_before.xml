@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+
+
+        android:id="@+id/imageView"
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/bike" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+
+        android:id="@+id/gear_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="구동계점검하기" />
+
+    <Button
+
+        android:id="@+id/wheel_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="휠점검하기" />
+
+    <Button
+
+
+        android:id="@+id/saddle_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="안장점검하기" />
+
+    <Button
+
+        android:id="@+id/etc_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="기타점검하기" />
+
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.kim.bisos">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.DIAL_PHONE" />
+
+    <application
+        android:name=".MainApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/bike"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivityTabhost"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivitySplash"
+
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+
+
+
+      <!--<activity-->
+            <!--android:name=".ActivityTabhost"-->
+            <!--android:label="@string/sample_tabhost" />-->
+
+        <!--<activity-->
+            <!--android:name=".ListView.ActivityItemList"-->
+            <!--android:label="@string/sample_listview" />-->
+
+        <activity android:name=".viewpager.ActivityGear"/>
+        <activity android:name=".viewpager.ActivityWheel"/>
+        <activity android:name=".viewpager.ActivitySaddle"/>
+        <activity android:name=".ActivityEtc"/>
+        <activity android:name=".ActivitySafe"/>
+        <activity android:name=".ActivityEquipment"/>
+        <activity android:name=".ActivityPuncture"/>
+        <activity android:name=".ActivityHelpRequestSend"/>
+        <activity android:name=".ActivityHelpRequestReceive"/>
+        <activity android:name=".ActivityMyLocation"/>
+        <activity android:name=".ActivityShake"/>
+        <activity android:name=".ActivityCountdown"/>
+        <activity android:name=".login.ActivityRegister"/>
+        <activity android:name=".login.ActivityLogin" />
+        <activity android:name=".CustomListView.Listview"/>
+        <activity android:name=".ActivityNoticeBoard"/>
+        <activity android:name=".Map.NaverMyLocation"/>
+        <activity android:name=".sos.ActivitySOS"/>
+        <activity android:name=".sos.ActivitySOSList"/>
+        <activity android:name=".sos.ActivitySOSDetail"/>
+        <activity android:name=".sos.ActivitySOSEdit"/>
+
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+</manifest>

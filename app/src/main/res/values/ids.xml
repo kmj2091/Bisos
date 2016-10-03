@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="viewpager" type="id" />
+    <item name="local" type="id" />
+    <item name="editText1" type="id" />
+    <item name="view1" type="id" />
+    <item name="count_txt" type="id" />
+    <item name="tv_countdown" type="id" />
+    <item name="textView1" type="id" />
+    <item name="etY" type="id" />
+    <item name="etX" type="id" />
+    <item name="item_lv" type="id" />
+    <item name="imageView1" type="id" />
+    <item name="radio_wait" type="id" />
+    <item name="radio_progress" type="id" />
+    <item name="radio_complete" type="id" />
+    <item name="radio_expire" type="id" />
+</resources>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ActivityCountdown"
+    android:gravity="center" >
+
+
+    <TextView
+        android:id="@+id/tv_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="150sp"
+        android:text="10"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_weight="1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+    <shape android:shape="oval"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <stroke android:color="#ffffffff"
+            android:width="4dp" />
+        <padding android:left="10dip"
+            android:right="10dip"
+            android:top="10dip"
+            android:bottom="10dip"/>
+    </shape>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="종료"
+        android:id="@+id/end_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/sendsms_btn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문자전송"
+        android:id="@+id/sendsms_btn"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="144dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/tv_countdown" />
+</RelativeLayout>

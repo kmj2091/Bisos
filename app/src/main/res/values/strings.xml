@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Bisos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login">로그인</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_phone_number">핸드폰번호</string>
+    <string name="prompt_email">이메일</string>
+    <string name="prompt_password">비밀번호</string>
+    <string name="prompt_re_password">비밀번호 재입력</string>
+    <string name="prompt_name">이름</string>
+    <string name="action_sign_in">로그인</string>
+    <string name="action_register">회원가입</string>
+    <string name="action_commit">완료</string>
+    <string name="action_cancel">취소</string>
+
+    <string name="desc_pwd_compare_fails">비밀번호가 맞지 않습니다.</string>
+    <string name="desc_email_check">이메일을 체크해주세요.</string>
+    <string name="desc_ph_need">핸드폰 번호를 입력해주세요.</string>
+    <string name="desc_name_need">이름을 제대로 입력해주세요.</string>
+    <string name="desc_pz_enter_email">이메일을 입력해주세요.</string>
+    <string name="desc_pz_enter_pwd">비밀번호를 입력해주세요.</string>
+    <string name="desc_success">성공</string>
+
+    <string name="sample_tabhost">프레그먼트 탭호스트 샘플</string>
+    <string name="sample_listview">리스트뷰 샘플</string>
+    <string name="str_done">완료</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_activity_register">Sign in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_filename" />
+    <string name="str_editmemo" />
+    <string name="str_menu" />
+    <string name="str_save" />
+    <string name="switch_button" />
+    <string name="helpinfo" />
+    <string name="sensor_unsupported" />
+    <string name="hint_sos_title" />
+    <string name="hint_sos_body" />
+    <string name="radio_sos_wait" />
+    <string name="radio_sos_progress" />
+    <string name="radio_sos_complete" />
+    <string name="radio_sos_expire" />
+</resources>

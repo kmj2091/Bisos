@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"></LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="환경설정"
+        android:id="@+id/textView8"
+        android:textSize="20dip"
+        android:layout_gravity="center_horizontal" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="112 범죄"
+                android:id="@+id/crime_btn"
+                android:layout_gravity="center_horizontal"
+
+               />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="119 구조"
+                android:id="@+id/save_btn"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="110 민원"
+                android:id="@+id/question_btn"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="120 다산콜센터"
+                android:id="@+id/dasan_btn"
+                android:layout_gravity="center_horizontal"
+              />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="도움요청게시판"
+                android:id="@+id/sos_btn"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="도움요청후"
+                android:id="@+id/helprequest_after_btn"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="센서감지"
+                android:id="@+id/sensordetection_btn"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

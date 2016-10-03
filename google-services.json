@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "45648980034",
+    "firebase_url": "https://bisos-da7be.firebaseio.com",
+    "project_id": "bisos-da7be",
+    "storage_bucket": "bisos-da7be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45648980034:android:f7cd7b8bf4bc452e",
+        "android_client_info": {
+          "package_name": "com.kim.bisos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45648980034-kkov4i8pgrp59alqdu1gt4oeo3835v34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAboIvlApUV-7b0JSGDR1asMg5TDEgEY1o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

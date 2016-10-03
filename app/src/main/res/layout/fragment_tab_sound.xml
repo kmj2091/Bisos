@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사운드"
+        android:id="@+id/textView8"
+        android:textSize="20dip"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="경찰사이렌"
+        android:id="@+id/siren_btn"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="화재경보"
+        android:id="@+id/fire_btn"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="비명소리"
+        android:id="@+id/scream_btn"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="호각소리"
+        android:id="@+id/whisle_btn"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알림설정"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
